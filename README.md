@@ -1,6 +1,6 @@
-# Vantarealm Lore App
+# JobExact Exam App
 
-Vue3 (typescript) project source code for Vantarealm Lore website.
+Vue3 (typescript) project source code for JobExact Exam App.
 
 ## Architecture
 
