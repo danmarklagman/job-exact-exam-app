@@ -5,7 +5,9 @@ module.exports = {
 
 	dev: {
 		publicPath: '/',
-		port: 8080,
+		port: process.env.VUE_APP_PORT || 8080,
+        host: process.env.VUE_APP_HOST || 'localhost',
+        server: process.env.VUE_APP_SERVER || 'http'
 	},
 
 	build: {

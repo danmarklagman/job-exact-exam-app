@@ -19,10 +19,10 @@ module.exports = merge(baseWebpackConfig, cssWebpackConfig, {
 			publicPath: config.dev.publicPath,
 		},
 		open: false,
-		host: 'jobexact.local',
+		host: config.dev.host,
 		port: config.dev.port,
 		liveReload: false,
-		server: 'https',
+		server: config.dev.server,
 	},
 
 	infrastructureLogging: {

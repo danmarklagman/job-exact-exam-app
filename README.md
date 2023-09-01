@@ -30,3 +30,15 @@ yarn dev
 # Compile production bundle.
 yarn build
 ```
+
+## .env
+
+```bash
+VUE_APP_API_URL='https://api.jobexact.local'
+VUE_APP_NAME='JobExact'
+VUE_APP_ENV='development'
+VUE_APP_DEBUG=true
+VUE_APP_HOST='localhost'
+VUE_APP_SERVER='http'
+VUE_APP_PORT=8080
+```

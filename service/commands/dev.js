@@ -14,9 +14,9 @@ const getLocalIP = require('../utils/getLocalIP')
 const devWebpackConfig = require('../config/dev')
 
 const devServerOptions = devWebpackConfig.devServer
-const protocol = devServerOptions.server ? 'https' : 'http'
-const host = devServerOptions.host || '0.0.0.0'
-const port = devServerOptions.port || 8080
+const protocol = devServerOptions.server
+const host = devServerOptions.host
+const port = devServerOptions.port
 
 info('Starting development server...')
 
